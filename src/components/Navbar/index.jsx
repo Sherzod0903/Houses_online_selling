@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { navbar } from "../../utils/navbar";
+import Filter from "../Filter";
 import {Button }from "../Generic/";
 import { Container, Logo, Section, Wrapper,Link, Main } from "./styled";
 
@@ -27,6 +28,7 @@ return(
 
         </Wrapper>
             </Main>
+            <Filter/>
     <Outlet/>
 </Container>
 

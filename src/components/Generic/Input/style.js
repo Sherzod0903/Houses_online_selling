@@ -44,6 +44,24 @@ outline:none;
 border:2px solid #e6e9ec;
 /* cursor: pointer; */
 /* ${getButton}; */
+padding-left:${({icon})=>(icon?'35px':'20px')};
 
 `
-export{Container}
+const Wrapper=styled.div`
+display:flex;
+position:relative;
+align-items:center;
+width:${({width})=>(width?`${width}px`:'100%')};
+
+`
+const Icon =styled.div`
+position:absolute;
+
+left:10px;
+display:flex;
+align-items:center;
+justify-content:center;
+`
+
+
+export{Container,Wrapper,Icon}

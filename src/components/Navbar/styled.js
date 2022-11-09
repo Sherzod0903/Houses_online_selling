@@ -7,6 +7,7 @@ const Container=styled.div`
 display:flex;
 flex-direction:column;
 justify-content:center;
+
 `
 const Main=styled.div`
 display:flex;
@@ -25,7 +26,7 @@ padding:var(--padding);
 height: 64px;
 font-size:16px;
 width:100%;
-max-width:1440px;
+/* max-width:1440px; */
 
 `
  const Section=styled.div`
