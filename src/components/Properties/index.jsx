@@ -3,7 +3,7 @@ import { Container } from "./styled";
 
 export const Properties=()=>{
 return( 
-<Container>Home</Container>
+<Container>Properties</Container>
 )
 
 }
