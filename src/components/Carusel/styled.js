@@ -1,5 +1,5 @@
 import styled  from "styled-components";
-import { ReactComponent as arrow } from "../../asset/icons/arrow.svg";
+import { ReactComponent as arrow1 } from "../../asset/icons/arrow2.svg";
 
 
 
@@ -10,17 +10,18 @@ import { ReactComponent as arrow } from "../../asset/icons/arrow.svg";
 const Container=styled.div` 
 position:relative;
 
-height:571px;
+/* height:571px; */
+/* background-color:red; */
 
 
 `
-const Arrow=styled(arrow)`
+const Arrow=styled(arrow1)`
 position:absolute;
 top:50%;
 width:40px;
 height:40px;
 border-radius:50%;
-padding:3px;
+padding:13px;
 color:rgb(0,0,0,0.3);
 background: rgba(225,225,225,0.2);
 transform:${({left})=>(!left?'left':'rotate(180deg)')};
@@ -38,7 +39,7 @@ width:571px;
 `
 const Blur=styled.div`
 position: absolute; 
-top:0;
+top:0 ;
 bottom:0;
 left:0;
 right:0;

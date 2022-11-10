@@ -1,12 +1,21 @@
+
 import React from "react";
 import GenCarusel from "../Carusel";
+import HomeCard from "../Housecard";
 
-import { Container } from "./styled";
+
+import { Container,Body } from "./styled";
 
 export const Home=()=>{
 return( 
 <Container>
-    <GenCarusel></GenCarusel>
+<GenCarusel/>
+<Body>
+    <HomeCard/>
+<HomeCard/>
+<HomeCard/>
+    </Body>
+
 </Container>
 )
 

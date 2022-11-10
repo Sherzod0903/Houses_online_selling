@@ -23,3 +23,27 @@ body{
 --padding:0 130px;
 
 }
+
+.subTitle{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+color: #0D263B
+}
+
+.info{
+  
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+margin-top:4px;
+/* Text / Color */
+
+color: #696969;
+}

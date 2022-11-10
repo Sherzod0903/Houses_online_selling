@@ -30,9 +30,9 @@ return(
 <Img src={home1}/>
 <Img src={home2}/>
 
-<Blur/>
 
 </Carousel>
+<Blur/>
 <Content><Content.Titile>Skyper Pool Partment</Content.Titile>
 
 <Content.Desc >112 Glenwood Ave Hyde Park, Boston, MA</Content.Desc>

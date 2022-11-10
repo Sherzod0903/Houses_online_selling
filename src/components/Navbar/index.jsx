@@ -12,7 +12,7 @@ return(
            <Main> 
 
     <Wrapper>
-       <Section onClick={()=>navigate('/home')} logo><Logo/><h3>Houzing</h3></Section>
+       <Section onClick={()=>navigate('/home')} logo><Logo/><h3 style={{color:'white'}}>Houzing</h3></Section>
        <Section>
         {navbar.map(({title,path,hidden},index)=>{
             return !hidden && (
