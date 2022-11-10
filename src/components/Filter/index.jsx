@@ -43,7 +43,7 @@ return(
 <Container>
     <Input icon={<Icons.Home/>} placeholder={'Enter an address, neighborhood, city, or ZIP code'}/>
     <Dropdown
-        menu={itom}
+        overlay={itom}
         placement='bottomRight'
         arrow={{ pointAtCenter: true }}
       >

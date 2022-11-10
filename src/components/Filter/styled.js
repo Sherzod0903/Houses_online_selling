@@ -18,6 +18,7 @@ Icons.Home=styled(home)`margin-right:8px;`;
 Icons.Filter=styled(filter)`margin-right:8px;`;
 Icons.Search=styled(search)`margin-right:8px;`;
 const MenuWrapper = styled.div`
+width:100%;
   padding: 30px;
   background: white;
   border: 1px solid #e6e9ec;
