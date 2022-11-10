@@ -16,12 +16,14 @@ height:571px;
 `
 const Arrow=styled(arrow)`
 position:absolute;
-top:66%;
-width:50px;
-height:50px;
+top:50%;
+width:40px;
+height:40px;
+border-radius:50%;
 padding:3px;
-background: rgba(0,0,0,0.4);
-transform:${({left})=>(left?'left':'rotate(-180deg)')};
+color:rgb(0,0,0,0.3);
+background: rgba(225,225,225,0.2);
+transform:${({left})=>(!left?'left':'rotate(180deg)')};
 left: ${({left})=>left &&'20px'};
 right: ${({left})=>!left &&'20px'};
 cursor: pointer;
@@ -31,18 +33,65 @@ cursor: pointer;
 
 `
  const Img=styled.img`
-width:100%;
+width:571px;
+
 `
 const Blur=styled.div`
-position: absolute;
+position: absolute; 
 top:0;
 bottom:0;
 left:0;
 right:0;
-width:100%;
-background:rgba(0,0,0,0.3);
+
+
+background:rgba(0,0,0,0.2);
 `
+const Content=styled.div`
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+`
+Content.Titile=styled.div`
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 48px;
+
+letter-spacing: -0.02em;
+margin:20px 0px;
+
+color: #FFFFFF;
+`
+Content.Desc=styled.div`
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
 
 
+color: #FFFFFF;
 
-export { Container,Arrow,Img ,Blur }
+`
+Content.Price=styled.div`
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 36px;
+margin-top:20px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+`
+export { Container,Arrow,Img ,Blur,Content }

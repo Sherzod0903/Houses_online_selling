@@ -1,6 +1,6 @@
 import React,{useRef}from "react";
 import { Carousel } from 'antd';
-import { Arrow, Blur, Container,Img } from "./styled";
+import { Arrow, Blur, Container,Content,Img } from "./styled";
 import home1 from "../../asset/images/home1.png"
 import home2 from "../../asset/images/home2.png"
 
@@ -30,10 +30,17 @@ return(
 <Img src={home1}/>
 <Img src={home2}/>
 
-</Carousel>
 <Blur/>
-    <Arrow onClick={onMove}  data-name='left'  />
-<Arrow onClick={onMove}  data-name='right'   left="true " />
+
+</Carousel>
+<Content><Content.Titile>Skyper Pool Partment</Content.Titile>
+
+<Content.Desc >112 Glenwood Ave Hyde Park, Boston, MA</Content.Desc>
+
+<Content.Price>$5,250/month</Content.Price>
+</Content>
+    <Arrow onClick={onMove}  data-name='left' left="true"  />
+<Arrow onClick={onMove}  data-name='right'    />
 </Container>
 )
 };
