@@ -20,6 +20,13 @@ width: 380px;
 height: 429px;
 border:1px solid black;
 margin:100px;
+transition: 0.8s;
+transform:scale(1);
+:hover{
+  width:450px;
+  height:500px
+
+}
 
 
 filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06)) drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
