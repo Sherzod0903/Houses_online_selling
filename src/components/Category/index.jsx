@@ -32,9 +32,11 @@ export const CategoryCarusel=()=>{
 return(
   <Container>
     <Container.Title>Category</Container.Title>
+    <Container.Text>Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.</Container.Text>
+
   <Slider {...settings}>
 {data.map((value)=>{
-  return <CategoryCard onClick={() => navigate(`/properties?category_id=${value.id}`)} data={value} />
+  return <CategoryCard key={value.id} onClick={() => navigate(`/properties?category_id=${value.id}`)} data={value} />
 })}
 
 

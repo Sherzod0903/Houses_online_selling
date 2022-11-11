@@ -6,7 +6,14 @@ import home2 from "../../asset/images/home2.png"
 
 
 
-
+const contentStyle= {
+  margin: 0,
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+};
 
 export const GenCarusel=()=>{ 
   const slider=useRef();
@@ -26,22 +33,21 @@ const onMove=({target:{
 
 return(
   <Container>
-      <Carousel ref={slider} afterChange={onChange}>
-<Img src={home1}/>
+<Carousel ref={slider} afterChange={onChange}>
+  <Img src={home1}/>
 <Img src={home2}/>
 
 
-<Blur/>
+
 </Carousel>
-<Content><Content.Titile>Skyper Pool Partment</Content.Titile>
-
-<Content.Desc >112 Glenwood Ave Hyde Park, Boston, MA</Content.Desc>
-
-<Content.Price>$5,250/month</Content.Price>
-</Content>
-    <Arrow onClick={onMove}  data-name='left' left="true"  />
-<Arrow onClick={onMove}  data-name='right'    />
-</Container>
+ <Blur/>
+ <Content><Content.Titile>Skyper Pool Partment</Content.Titile>
+ <Content.Desc >112 Glenwood Ave Hyde Park, Boston, MA</Content.Desc>
+ <Content.Price>$5,250/month</Content.Price>
+ </Content>
+     <Arrow onClick={onMove}  data-name='left' left="true"  />
+ <Arrow onClick={onMove}  data-name='right'    />
+ </Container>
 )
 };
 export default GenCarusel;

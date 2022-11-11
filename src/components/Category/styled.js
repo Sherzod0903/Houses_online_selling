@@ -25,6 +25,36 @@ Container.Title=styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+
+color: #0D263B;
+`
+
+Container.Text=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin:8px 0 32px 0;
+/* identical to box height, or 150% */
+
+
+/* text/2 */
+
+color: #696969;
 `
 
 const Arrow=styled(arrow1)`

@@ -1,5 +1,5 @@
 import styled  from "styled-components";
-import { ReactComponent as arrow1 } from "../../asset/icons/arrow2.svg";
+import { ReactComponent as arrow2 } from "../../asset/icons/arrow2.svg";
 
 
 
@@ -11,17 +11,17 @@ const Container=styled.div`
 position:relative;
 
 height:fit-content;
-/* background-color:red; */
+
 
 
 `
-const Arrow=styled(arrow1)`
+const Arrow=styled(arrow2)`
 position:absolute;
 top:50%;
-width:40px;
-height:40px;
+width:30px;
+height:30px;
 border-radius:50%;
-padding:13px;
+padding:20px;
 color:rgb(0,0,0,0.3);
 background: rgba(225,225,225,0.2);
 transform:${({left})=>(!left?'left':'rotate(180deg)')};
@@ -59,6 +59,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+
 `
 Content.Titile=styled.div`
 font-family: 'Montserrat';

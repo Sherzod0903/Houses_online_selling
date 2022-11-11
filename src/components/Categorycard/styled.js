@@ -41,6 +41,7 @@ bottom:0;
 left:0;
 right:0;
 color:white;
+
 display:flex;
 flex-direction:column;
 justify-content:center;

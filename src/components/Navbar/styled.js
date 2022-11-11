@@ -13,7 +13,7 @@ const Main=styled.div`
 display:flex;
 justify-content:center;
 background:var(--colorPrimary);
-width:100%;
+
 `
 
 const Wrapper=styled.div`
