@@ -15,7 +15,7 @@ price,address,attachments,salePrice,houseDetails
 
 return(
  <Container>
-  <Img src={attachments && attachments[0]?.imgPath|| noimage}/>
+  <Img src={(attachments && attachments[0]?.imgPath)|| noimage}/>
   <Content>
   <div className="subTitle inline" >{city} {country} {description}</div>
   <div className="info">{address}</div>
