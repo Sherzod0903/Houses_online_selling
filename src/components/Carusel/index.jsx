@@ -6,14 +6,6 @@ import home2 from "../../asset/images/home2.png"
 
 
 
-const contentStyle= {
-  margin: 0,
-  height: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#364d79',
-};
 
 export const GenCarusel=()=>{ 
   const slider=useRef();
