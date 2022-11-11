@@ -51,3 +51,9 @@ margin-top:4px;
 
 color: #696969;
 }
+
+
+.slick-prev:before, .slick-next:before{
+color:  #464242 !important;
+
+}

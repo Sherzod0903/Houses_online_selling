@@ -15,7 +15,7 @@ max-width: 280px;
 min-width: 230px;
 
 
-
+cursor: pointer;
 
 max-height: 380px;
 min-height:250px;
@@ -32,10 +32,7 @@ filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px 
 const Img=styled.img`
 width:100%;
 height:100%;
-/* max-height:220px;
-min-height:200px; */
 
-/* margin-bottom:24px; */
 `
 const Content=styled.div`
 position:absolute;
@@ -79,11 +76,5 @@ const Icons=styled.div`
 
 
 
-const Divider=styled.div`
-background: #E6E9EC;
-height:0.1px;
-width:100%;
-
-`
 
 export { Container,Img,Blur,Content,Icons}

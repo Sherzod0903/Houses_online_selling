@@ -8,13 +8,25 @@ import { ReactComponent as arrow1 } from "../../asset/icons/arrow2.svg";
 
 
 const Container=styled.div` 
+display:flex;
 position:relative;
-
-height:fit-content;
+flex-direction:column;
+margin:auto;
+padding:96px 130px;
+max-width:1440px;
+width:100%;
 /* background-color:red; */
 
 
+
+
 `
+Container.Title=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+`
+
 const Arrow=styled(arrow1)`
 position:absolute;
 top:50%;
@@ -34,8 +46,7 @@ cursor: pointer;
 
 `
  const Img=styled.img`
-width:100%;
-
+width:571px;
 
 `
 const Blur=styled.div`
@@ -44,7 +55,7 @@ top:0 ;
 bottom:0;
 left:0;
 right:0;
-
+ 
 
 background:rgba(0,0,0,0.2);
 `

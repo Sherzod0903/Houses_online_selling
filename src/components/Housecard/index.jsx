@@ -9,16 +9,16 @@ import { Container, Content, Details, Img,Icons ,Divider,
 
 export const HomeCard=({data={}})=>{ 
   const {city,country,description,
-price,address,attachments,salePrice,houseDetails
+price,address,category,attachments,salePrice,houseDetails
 } =data;
   console.log(data);
 
 return(
  <Container>
-  <Img src={(attachments && attachments[0]?.imgPath) || (noimage)}/>
+  <Img src={(attachments && attachments[0]?.imgPath) || noimage}/>
   <Content>
   <div className="subTitle inline" >{city} {country} {description}</div>
-  <div className="info">{address}</div>
+  <div className="info">{address}-{category?.name||'category'}</div>
   <Details>
     <Details.Item><Icons.Bed/><div className="info">Bed {houseDetails
 ?.beds}</div></Details.Item>
