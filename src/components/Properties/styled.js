@@ -2,9 +2,12 @@ import styled  from "styled-components";
 
 const Container=styled.div`
 display:flex;
-/* width:1440px; */
+flex-wrap:wrap;
 justify-content:center;
-align-items:center;
+/* align-items:center; */
+gap:20px;
+padding:var(--padding);
+/* max-width:1440px; */
 `
 
 export{ Container }

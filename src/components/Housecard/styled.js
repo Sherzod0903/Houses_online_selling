@@ -18,15 +18,10 @@ const Container=styled.div`
 
 width: 380px;
 height: 429px;
-border:1px solid black;
-margin:100px;
-transition: 0.8s;
-transform:scale(1);
-:hover{
-  width:450px;
-  height:500px
 
-}
+/* gap:20px; */
+
+
 
 
 filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06)) drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
@@ -35,6 +30,8 @@ filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px 
 const Img=styled.img`
 width:100%;
 max-height:220px;
+min-height:220px;
+
 /* margin-bottom:24px; */
 `
 const Content=styled.div`
@@ -42,9 +39,12 @@ const Content=styled.div`
 display:flex;
 flex-direction:${({footer})=>(footer?'row':'column')};
 justify-content:${({footer})=>(footer&&'space-between')};
-margin-top:18px;
+
 padding:0px 20px;
 
+border-left:4px solid #E6E9EC;
+border-right:4px solid #E6E9EC;
+border-bottom:4px solid #E6E9EC;
 `
 const Details=styled.div`
 display:flex;
@@ -86,7 +86,7 @@ color:red;
 
 const Divider=styled.div`
 background: #E6E9EC;
-height:2px;
+height:0.1px;
 width:100%;
 
 `

@@ -32,7 +32,11 @@ font-size: 16px;
 
 color: #0D263B
 }
-
+.inline{
+  display: flex;
+  overflow: hidden;
+  white-space: wrap;
+}
 .info{
   
   font-family: 'Montserrat';
