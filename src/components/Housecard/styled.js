@@ -15,8 +15,10 @@ import {ReactComponent as love} from '../../asset/icons/love.svg'
 
 
 const Container=styled.div` 
+width:100%;
+max-width: 380px;
+min-width: 330px;
 
-width: 380px;
 height: 429px;
 
 /* gap:20px; */
@@ -30,7 +32,7 @@ filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px 
 const Img=styled.img`
 width:100%;
 max-height:220px;
-min-height:220px;
+min-height:200px;
 
 /* margin-bottom:24px; */
 `

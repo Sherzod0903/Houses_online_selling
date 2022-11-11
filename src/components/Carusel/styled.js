@@ -10,7 +10,7 @@ import { ReactComponent as arrow1 } from "../../asset/icons/arrow2.svg";
 const Container=styled.div` 
 position:relative;
 
-/* height:571px; */
+height:fit-content;
 /* background-color:red; */
 
 

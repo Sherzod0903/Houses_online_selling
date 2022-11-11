@@ -33,7 +33,7 @@ navigate(`${location?.pathname}${uzeReplace(name, value)}`)
         <Section>
           <Input defaultvalue={query.get('country')} onChange={onChange} name="country" ref={countryRef} placeholder='Country' />
           <Input defaultValue={query.get('region')} onChange={onChange} name="region" ref={regionRef} placeholder='Region' />
-          <Input defaultValue={query.get('city')} onChange={onChange} name="city" ref={cityRef} placeholder='City' />
+          <Input defaultValue={query.get('city')} onChange={onChange} name="address" ref={cityRef} placeholder='City' />
           <Input defaultValue={query.get('zip_code')} onChange={onChange} name="zip_code" ref={zipRef} placeholder='Zip Code' />
         </Section>
         <h1 className='subTitle'>Apartment info</h1>

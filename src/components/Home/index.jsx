@@ -1,6 +1,7 @@
 
 import React from "react";
 import GenCarusel from "../Carusel";
+import CategoryCard from "../Categorycard";
 
 
 
@@ -10,6 +11,7 @@ export const Home=()=>{
 return( 
 <Container>
 <GenCarusel/>
+<CategoryCard/>
 </Container>
 )
 
