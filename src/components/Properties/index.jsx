@@ -1,5 +1,6 @@
 import React,{useEffect, useState}from "react";
 import { useLocation } from "react-router-dom";
+
 import HomeCard from "../Housecard";
 import { Container } from "./styled";
 const {REACT_APP_BASE_URL:url}=process.env;
@@ -17,7 +18,9 @@ useEffect(()=>{
 },[search]); //we can get location thru search inside of url
 
 return( 
-<Container>{
+<Container>
+    
+    {
     data.map((value)=>{
 
         return <HomeCard data={value} key={value.id}/>

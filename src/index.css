@@ -57,3 +57,8 @@ color: #696969;
 color:  #464242 !important;
 
 }
+.ant-carousel .slick-dots-bottom {
+width: fit-content;
+/* left: 380px; */
+
+}

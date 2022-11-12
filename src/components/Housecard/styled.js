@@ -24,9 +24,11 @@ height: 429px;
 /* gap:20px; */
 
 
+:hover{
 
-
-filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06)) drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
+  filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06)) drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06)) drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
+}
+cursor: pointer;
 
 `
 const Img=styled.img`
