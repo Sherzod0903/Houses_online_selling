@@ -2,6 +2,9 @@
 import React from "react";
 import GenCarusel from "../Carusel";
 import CategoryCarusel from "../Category";
+// import Footer from "../Footer";
+import Readmore from "../ReadMore";
+import Recentrent from "../Recentrent";
 import RecommendCarusel from "../Recommend";
 import Whyus from "../Whyus";
 
@@ -17,6 +20,10 @@ return(
 <RecommendCarusel/> 
 <Whyus/> 
 <CategoryCarusel/>
+<Readmore/>
+<Recentrent/>
+{/* <Footer/> */}
+
 </Container>
 )
 

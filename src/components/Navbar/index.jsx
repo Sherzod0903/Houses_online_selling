@@ -1,3 +1,4 @@
+import { Footer } from "antd/lib/layout/layout";
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { navbar } from "../../utils/navbar";
@@ -30,6 +31,7 @@ return(
             </Main>
             <Filter/>
     <Outlet/>
+    <Footer/>
 </Container>
 
 
