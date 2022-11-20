@@ -2,7 +2,7 @@
 import React from "react";
 import GenCarusel from "../Carusel";
 import CategoryCarusel from "../Category";
-// import Footer from "../Footer";
+
 import Readmore from "../ReadMore";
 import Recentrent from "../Recentrent";
 import RecommendCarusel from "../Recommend";
@@ -22,7 +22,7 @@ return(
 <CategoryCarusel/>
 <Readmore/>
 <Recentrent/>
-{/* <Footer/> */}
+
 
 </Container>
 )

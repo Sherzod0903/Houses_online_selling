@@ -62,3 +62,6 @@ width: fit-content;
 /* left: 380px; */
 
 }
+.ant-layout-footer{
+padding: 24px -20px;
+}

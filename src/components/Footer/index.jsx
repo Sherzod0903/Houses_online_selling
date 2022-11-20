@@ -12,49 +12,107 @@ return(
 
 
 <Squares>
-<Squares.Item1>
-    Contact Us
+
   
      
-    <Squares.Text>
-  
-       </Squares.Text>
+    <Squares.Title>
+    Contact Us
+         </Squares.Title>
       
        <Squares.Text>
+        <Icons.Direction/>
+       329 Queensberry Street, North Melbourne VIC 3051, Australia.
        </Squares.Text>
-</Squares.Item1>
+       <Squares.Text>
+        <Icons.Phone/>
+       123 456 7890
+       </Squares.Text>
+       <Squares.Text>
+        <Icons.Email/>
+       support@houzing.com
+       </Squares.Text>
+      <Icons.Contact>
+        <Icons.Facebook/>
+        <Icons.Instagram/>
+        <Icons.Linkedin/>
+        <Icons.Twitter/>
+      </Icons.Contact>
+</Squares>
+
+<Squares>
 
 
-<Squares.Item1>
+ 
+  <Squares.Title>
+  Discover
+  </Squares.Title>
+    <Squares.Text>
+   Chicago
+    </Squares.Text>
+    <Squares.Text>
+  Los Angles
+    </Squares.Text>
+    <Squares.Text>
+   Miami
+    </Squares.Text>
+    <Squares.Text>
+   New York
+    </Squares.Text>
+</Squares>
+
+<Squares>
   <Icons/>
   <Squares.Title>
-    Wide Renge Of Properties
+  Lists by Category
   </Squares.Title>
-    <Squares.Text>
-    With over 1 million+ homes for sale available on the website, Trulia can match you with a house you will want to call home.
+  <Squares.Text>
+  Apartments
     </Squares.Text>
-</Squares.Item1>
+    <Squares.Text>
+   Condos
+    </Squares.Text>
+    <Squares.Text>
+    Houses
+    </Squares.Text>
+    <Squares.Text>
+    Offices
+    </Squares.Text>
+    <Squares.Text>
+    Retail
+    </Squares.Text>
+    <Squares.Text>
+    Villas
+    </Squares.Text>
 
-<Squares.Item1>
-  <Icons/>
-  <Squares.Title>Financing Made Easy
-  </Squares.Title>
-    <Squares.Text>
-    With over 1 million+ homes for sale available on the website, Trulia can match you with a house you will want to call home.
-    </Squares.Text>
-</Squares.Item1>
 
-<Squares.Item1>
-  <Icons/>
-  <Squares.Title>See Neighborhoods
-  </Squares.Title>
-    <Squares.Text>
-    With over 1 million+ homes for sale available on the website, Trulia can match you with a house you will want to call home.
-    </Squares.Text>
-</Squares.Item1>
 
 
 </Squares>
+
+<Squares>
+  
+  <Squares.Title>
+  Lists by Category
+  </Squares.Title>
+  <Squares.Text>
+  About us
+    </Squares.Text> 
+    <Squares.Text>
+    Terms & Conditions
+    </Squares.Text>
+    <Squares.Text>
+    Support Center
+    </Squares.Text>
+    <Squares.Text>
+    Contact Us
+    </Squares.Text>
+
+
+</Squares>
+
+
+
+
 
  
 </Container>

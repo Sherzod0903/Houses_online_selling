@@ -1,4 +1,4 @@
-import { Footer } from "antd/lib/layout/layout";
+import Footer from "../Footer";
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { navbar } from "../../utils/navbar";
