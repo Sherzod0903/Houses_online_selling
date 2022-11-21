@@ -53,7 +53,7 @@ return(
   Los Angles
     </Squares.Text>
     <Squares.Text>
-   Miami
+   Washington
     </Squares.Text>
     <Squares.Text>
    New York
