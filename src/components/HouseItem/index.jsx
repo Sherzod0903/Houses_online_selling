@@ -1,13 +1,14 @@
-import React,{ }from "react";
+import {useParams }from 'react-router-dom';
 
-import {  Container ,Squares,Icons} from "./styled";
+import {  Container } from "./styled";
 
  
 export const Houseitem=()=>{ 
-
+const params=useParams();
+console.log(params,'params');
 
 return (
-  <div>HouseItem</div>
+  <Container>HouseItem</Container>
 )
 };
 export default Houseitem;

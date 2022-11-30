@@ -7,14 +7,14 @@ import noimage from '../../asset/images/nimage.png'
 import { Container, Content, Details, Img,Icons ,Divider,
 } from "./styled";
 
-export const HomeCard=({data={}})=>{ 
+export const HomeCard=({data={},onClick})=>{ 
   const {city,country,description,
 price,address,category,attachments,salePrice,houseDetails
 } =data;
   console.log(data);
 
 return(
- <Container>
+ <Container onClick={onClick}>
   <Img src={(attachments && attachments[0]?.imgPath) || noimage}/>
   <Content>
   <div className="subTitle inline" >{city} {country} {description}</div>

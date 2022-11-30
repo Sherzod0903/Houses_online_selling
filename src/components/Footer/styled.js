@@ -13,11 +13,11 @@ display:flex;
 align-items:center;
 justify-content:space-around;
 margin:auto;
-margin-top:88px;
+margin-top:100px;
 /* padding:96px 130px; */
 width:100%;
 background: #0D263B;
-padding:20px;
+/* padding:20px; */
 height:417px;
 width:100%;
 `

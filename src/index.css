@@ -65,3 +65,6 @@ width: fit-content;
 .ant-layout-footer{
 padding: 24px -20px;
 }
+.slick-dots-bottom{
+  width: inherit !important;
+}
