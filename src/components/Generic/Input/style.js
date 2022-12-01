@@ -45,7 +45,9 @@ border:2px solid #e6e9ec;
 /* cursor: pointer; */
 /* ${getButton}; */
 padding-left:${({icon})=>(icon?'35px':'20px')};
-
+:focus{
+    border:1px solid #0061df;
+}
 `
 const Wrapper=styled.div`
 display:flex;
