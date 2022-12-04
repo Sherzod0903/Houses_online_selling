@@ -39,7 +39,7 @@ font-size:${({fontSize})=>(fontSize?`${fontSize}px`:'14px')};
 height:${({height})=>(height?`${height}px`:'44px')};
 width:${({width})=>(width?`${width}px`:'120px')};
 border:none;
-color:white;
+
 cursor: pointer;
 ${getButton};
 :active{
